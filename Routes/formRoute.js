@@ -1,4 +1,4 @@
-const Form = require('../Model/Form');
+const Form = require('../model/Form');
 
 const router = require('express').Router();
 
