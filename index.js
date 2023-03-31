@@ -3,7 +3,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
 const mongoose = require("mongoose");
-const formDataRoute = require('./routes/formRoute')
+const formDataRoute = require('./routes/form')
 const app = express();
 app.use(cors());
 app.use(express.json())
