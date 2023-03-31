@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const formSchema = new mongoose.Schema({
+const FormSchema = new mongoose.Schema({
   userName: {
     type: String,
     required: true
@@ -45,4 +45,4 @@ const formSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Form', formSchema);
+module.exports = mongoose.model('Form', FormSchema);
